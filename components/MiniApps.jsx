@@ -1,9 +1,10 @@
 'use client'
 
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card'
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
 import Image from 'next/image'
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from '@/components/ui/carousel'
+import Autoplay from "embla-carousel-autoplay"
 
 import infoLocalImg from "@/assets/info-local.png"
 import whatIsMinecraftImg from "@/assets/what-is-minecraft.png"
@@ -11,6 +12,7 @@ import loginMaterialUi from "@/assets/login-material-ui.png"
 import landingMaterialUi from "@/assets/template-landing-material-ui.png"
 import notesApp from "@/assets/notes-app.png"
 import guessIt from "@/assets/guess-it.png"
+import { useRef } from 'react'
 
 const miniApps = [
   {
@@ -64,15 +66,21 @@ const miniApps = [
 ]
 
 export default function MiniApps() {
+  const plugin = useRef(
+    Autoplay({ delay: 3000, stopOnInteraction: true })
+  )
+  
   return (
-    <section id="my-drafts" className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-100 dark:bg-gray-800">
-      <h2 className="text-3xl font-bold mb-8 text-center">My Drafts</h2>
+    <section id="my-drafts" className="py-20  sm:px-6 lg:px-8 bg-gray-100 dark:bg-gray-800">
+      <h2 className="text-3xl font-bold text-center mb-8">My Drafts</h2>
       
       <Carousel
         opts={{
           align: "start",
           loop: true,
+          
         }}
+        plugins={[plugin.current]}
         className="w-full max-w-5xl mx-auto px-6"
       >
         <CarouselContent>
@@ -109,9 +117,14 @@ export default function MiniApps() {
             </CarouselItem>
           ))}
         </CarouselContent>
-        <CarouselPrevious />
-        <CarouselNext />
+
+        {/* Botones para pantallas grandes */}
+        <div className="hidden lg:flex justify-between mt-4">
+          <CarouselPrevious />
+          <CarouselNext />
+        </div>
       </Carousel>
+      
     </section>
   )
 }
