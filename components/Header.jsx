@@ -16,9 +16,9 @@ export default function Header() {
 
   const NavItems = ({ onClick }) => (
     <>
-      <a href="#collaborated" className="hover:text-primary text-gray-800 font-semibold transition-colors" onClick={onClick}>Where I've Collaborated</a>
-      <a href="#my-drafts" className="hover:text-primary text-gray-800 font-semibold transition-colors" onClick={onClick}>My Drafts</a>
-      <a href="#get-in-touch" className="hover:text-primary text-gray-800 font-semibold transition-colors" onClick={onClick}>Get In Touch</a>
+      <a href="#collaborated" className="hover:text-primary dark:text-white font-semibold transition-colors" onClick={onClick}>Where I've Collaborated</a>
+      <a href="#my-drafts" className="hover:text-primary dark:text-white font-semibold transition-colors" onClick={onClick}>My Drafts</a>
+      <a href="#get-in-touch" className="hover:text-primary dark:text-white font-semibold transition-colors" onClick={onClick}>Get In Touch</a>
     </>
   )
 
@@ -27,7 +27,7 @@ export default function Header() {
   }
 
   return (
-    <header className={`py-4 px-4 sm:px-6 lg:px-8 fixed top-0 left-0 right-0 border-b ${theme === 'dark' ? 'bg-gray-900' : 'bg-white'} backdrop-blur-sm z-50`}>
+    <header className={`py-4 px-4 sm:px-6 lg:px-8 fixed top-0 left-0 right-0 border-b bg-white dark:bg-gray-900 backdrop-blur-sm z-50`}>
       <div className="container mx-auto flex justify-between items-center">
         <a href="#" className="text-2xl font-bold">
           Brayan
