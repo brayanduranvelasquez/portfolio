@@ -15,7 +15,7 @@ export default function Contact() {
       message: data.message,
       to_name: "Brayan",
       from_name: data.email
-    }, process.env.NEXT_PUBLIC_USER_ID)
+    }, process.env.NEXT_PUBLIC_EMAIL_USER_ID)
       .then((response) => {
         console.log('SUCCESS!', response.status, response.text);
         reset();
@@ -39,6 +39,7 @@ export default function Contact() {
               />
               {errors.name && <span className="text-red-500 text-sm">{errors.name.message}</span>}
             </div>
+
             <div>
               <Input 
                 type="email" 

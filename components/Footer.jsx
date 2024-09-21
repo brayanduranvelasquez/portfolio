@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer className="py-8 px-4 sm:px-6 lg:px-8 border-t">
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">
-        <p className="text-sm mb-4 md:mb-0">2024. Made with ❤️</p>
+        <p className="text-sm mb-4 md:mb-0">2024 - Made with ❤️</p>
         <div className="flex space-x-6">
           <a 
             href="#" 
