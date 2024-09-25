@@ -1,0 +1,38 @@
+{
+  "change_language": "Cambiar idioma",
+  
+  "header_where_collaborated": "Dónde he colaborado",
+  "header_my_drafts": "Mis borradores",
+  "header_get_in_touch": "Ponte en contacto",
+
+  "hero_title": "Desarrollador Frontend",
+  "hero_description": "Con 3 años de experiencia creando experiencias web hermosas y funcionales. ¡Construyamos algo increíble juntos!",
+  "hero_button_text": "Ponte en contacto",
+
+  "contact_title": "Ponte en contacto",
+  "contact_name_placeholder": "Tu Nombre",
+  "contact_email_placeholder": "Tu Correo Electrónico",
+  "contact_message_placeholder": "Tu Mensaje",
+  "contact_send_button": "Enviar Mensaje",
+  "contact_success_message": "Tu mensaje fue enviado correctamente.",
+  "contact_error_message": "Hubo un error al enviar tu mensaje.",
+  "contact_discord_button": "Discord",
+  "contact_email_button": "Email",
+
+  "footer_year": "2024 - Hecho con ❤️",
+
+  "mini_apps_title": "Mis Borradores",
+  "mini_app_info_local_description": "Experimentando con Material UI",
+  "mini_app_single_static_page_description": "Página web estática",
+  "mini_app_react_app_description": "Interfaz de usuario para inicio de sesión",
+  "mini_app_landing_page_description": "Página de aterrizaje estilizada",
+  "mini_app_notes_app_description": "Mi primera aplicación",
+  "mini_app_guess_it_description": "Mini-juego",
+
+  "projects_title": "Proyectos en los que he colaborado",
+   
+   "project_goosesmurfs_description": "Lleva tu experiencia en LOL al siguiente nivel. Sus cuentas te dan una ventaja en tu viaje clasificado.",
+   "project_cba_conference_description": "Es un evento prestigioso y renombrado que celebra la calidad excepcional y la diversidad de la cerveza canadiense.",
+   "project_brewers_description": "El Portal de Cerveceros es una plataforma para que las cervecerías se registren, gestionen su información y envíen entradas.",
+   "project_cenipa_description": "CENIPA (Centro Nacional de Investigación en Pesca y Acuicultura)"
+}

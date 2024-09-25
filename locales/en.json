@@ -1,0 +1,38 @@
+{
+  "change_language": "Change Language",
+
+  "header_where_collaborated": "Where I've Collaborated",
+  "header_my_drafts": "My Drafts",
+  "header_get_in_touch": "Get In Touch",
+
+  "hero_title": "Frontend Developer",
+  "hero_description": "With 3 years of experience crafting beautiful and functional web experiences. Let's build something amazing together!",
+  "hero_button_text": "Get in Touch",
+
+  "contact_title": "Get in Touch",
+  "contact_name_placeholder": "Your Name",
+  "contact_email_placeholder": "Your Email",
+  "contact_message_placeholder": "Your Message",
+  "contact_send_button": "Send Message",
+  "contact_success_message": "Your message was sent successfully.",
+  "contact_error_message": "There was an error sending your message.",
+  "contact_discord_button": "Discord",
+  "contact_email_button": "Email",
+
+  "footer_year": "2024 - Made with ❤️",
+
+  "mini_apps_title": "My Drafts",
+  "mini_app_info_local_description": "Experimenting with Material UI Design",
+  "mini_app_single_static_page_description": "Static web",
+  "mini_app_react_app_description": "Login and signup UI",
+  "mini_app_landing_page_description": "Styled landing page",
+  "mini_app_notes_app_description": "My first app",
+  "mini_app_guess_it_description": "Mini-game",
+
+   "projects_title": "Projects where I've collaborated",
+  
+   "project_goosesmurfs_description": "Take your LOL experience to the next level. Their accounts give you a head start on your ranked journey.",
+   "project_cba_conference_description": "It is a prestigious and renowned event that celebrates the exceptional quality and diversity of Canadian beer.",
+   "project_brewers_description": "The Brewers Portal is a platform for breweries to register, manage their information, and submit entries.",
+   "project_cenipa_description": "CENIPA (National Center for Fisheries and Aquaculture Research)"
+}
