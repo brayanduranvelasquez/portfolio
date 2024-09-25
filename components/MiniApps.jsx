@@ -83,7 +83,7 @@ export default function MiniApps() {
               loop: true,
             }}
             plugins={[plugin.current]}
-            className="w-full max-w-5xl mx-auto px-6"
+            className="w-full max-w-5xl mx-auto px-6 scale-[0.75] lg:scale-[1]"
           >
             <CarouselContent>
               {miniApps.map((app) => (
@@ -122,8 +122,7 @@ export default function MiniApps() {
               ))}
             </CarouselContent>
 
-            {/* Botones para pantallas grandes */}
-            <div className="hidden lg:flex justify-between mt-4">
+            <div >
               <CarouselPrevious />
               <CarouselNext />
             </div>

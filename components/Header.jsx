@@ -42,7 +42,7 @@ export default function Header() {
         </a>
 
         <div className="flex items-center space-x-4">
-          <div className='flex flex-row gap-2 items-center'>
+          <div className='flex flex-row gap-4 items-center'>
             <Button variant="ghost" size="icon" onClick={toggleTheme}>
               {theme === 'dark' ? <Sun className="h-5 w-5" /> : <Moon className="h-5 w-5" />}
             </Button>
