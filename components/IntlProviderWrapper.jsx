@@ -15,8 +15,10 @@ const IntlProviderWrapper = ({ children }) => {
   const pathname = usePathname();
   const locale = pathname.split('/')[1] || 'en';
 
+  const validLocale = ['en', 'es'].includes(locale) ? locale : 'en';
+
   return (
-    <IntlProvider locale={locale} messages={messages[locale] || messages.en}>
+    <IntlProvider locale={validLocale} messages={messages[validLocale]}>
       {children}
     </IntlProvider>
   );
