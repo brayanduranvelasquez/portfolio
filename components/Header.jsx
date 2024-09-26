@@ -18,6 +18,9 @@ export default function Header() {
 
   const NavItems = ({ onClick }) => (
     <>
+      <a href="#about" className="hover:text-primary dark:text-white font-semibold transition-colors" onClick={onClick}>
+        <FormattedMessage id="header_about" />
+      </a>
       <a href="#collaborated" className="hover:text-primary dark:text-white font-semibold transition-colors" onClick={onClick}>
         <FormattedMessage id="header_where_collaborated" />
       </a>

@@ -7,6 +7,7 @@ import MiniApps from '@/components/MiniApps'
 import Footer from '@/components/Footer'
 import { ThemeProvider } from '@/components/ThemeProvider'
 import Contact from '@/components/Contact'
+import SkillsSection from '@/components/SkillsSection'
 
 export default function Page() {
   return (
@@ -15,6 +16,7 @@ export default function Page() {
         <Header />
         <main className="pt-16">
           <Hero />
+          <SkillsSection />
           <Projects />
           <MiniApps />
           <Contact />

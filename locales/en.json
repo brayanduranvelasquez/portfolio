@@ -1,6 +1,7 @@
 {
   "change_language": "Change Language",
 
+  "header_about": "My Current Skills",
   "header_where_collaborated": "Where I've Collaborated",
   "header_my_drafts": "My Drafts",
   "header_get_in_touch": "Get In Touch",
@@ -8,6 +9,13 @@
   "hero_title": "Frontend Developer",
   "hero_description": "With 3 years of experience crafting beautiful and functional web experiences. Let's build something amazing together!",
   "hero_button_text": "Get in Touch",
+
+  "about_title": "My Current Skills",
+  "know_me": "Know Me!",
+  "know_me_text": "As a dedicated Frontend Web Developer, I specialize in crafting exceptional user experiences through visually appealing and functional front-ends. My expertise lies in building and maintaining websites and web applications that drive product success. Explore my portfolio in the Projects section to see my work in action.",
+  "know_me_text_last": "I'm actively seeking opportunities to join a dynamic team where I can contribute my skills, learn from experienced professionals, and grow my career. If you have a project that aligns with my passion for frontend development, please don't hesitate to reach out.",
+  "know_me_button": "Get in touch",
+  "skills_title": "Skills",
 
   "contact_title": "Get in Touch",
   "contact_name_placeholder": "Your Name",
@@ -29,7 +37,7 @@
   "mini_app_notes_app_description": "My first app",
   "mini_app_guess_it_description": "Mini-game",
 
-   "projects_title": "Projects where I've collaborated",
+   "projects_title": "Where I have worked recently",
   
    "project_goosesmurfs_description": "Take your LOL experience to the next level. Their accounts give you a head start on your ranked journey.",
    "project_cba_conference_description": "It is a prestigious and renowned event that celebrates the exceptional quality and diversity of Canadian beer.",

@@ -1,6 +1,7 @@
 {
   "change_language": "Cambiar idioma",
-  
+
+  "header_about": "Mis Habilidades Actuales",
   "header_where_collaborated": "Dónde he colaborado",
   "header_my_drafts": "Mis borradores",
   "header_get_in_touch": "Ponte en contacto",
@@ -19,6 +20,13 @@
   "contact_discord_button": "Discord",
   "contact_email_button": "Email",
 
+  "about_title": "Mis Habilidades Actuales",
+  "know_me": "¡Conóceme!",
+  "know_me_text": "Como un Desarrollador Web Frontend dedicado, me especializo en crear experiencias de usuario excepcionales a través de interfaces de usuario visualmente atractivas y funcionales. Mi experiencia radica en construir y mantener sitios web y aplicaciones web que impulsan el éxito del producto.",
+  "know_me_text_last": "Si tienes un proyecto que se alinea con mi pasión por el desarrollo frontend, no dudes en ponerte en contacto.",
+  "know_me_button": "Ponte en contacto",
+  "skills_title": "Habilidades",
+
   "footer_year": "2024 - Hecho con ❤️",
 
   "mini_apps_title": "Mis Borradores",
@@ -29,7 +37,7 @@
   "mini_app_notes_app_description": "Mi primera aplicación",
   "mini_app_guess_it_description": "Mini-juego",
 
-  "projects_title": "Proyectos en los que he colaborado",
+  "projects_title": "Donde he trabajo últimamente",
    
    "project_goosesmurfs_description": "Lleva tu experiencia en LOL al siguiente nivel. Sus cuentas te dan una ventaja en tu viaje clasificado.",
    "project_cba_conference_description": "Es un evento prestigioso y renombrado que celebra la calidad excepcional y la diversidad de la cerveza canadiense.",
