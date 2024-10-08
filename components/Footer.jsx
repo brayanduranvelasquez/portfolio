@@ -9,20 +9,18 @@ export default function Footer() {
           <FormattedMessage id="footer_year" />
         </p>
         <div className="flex space-x-6">
-          <a 
-            href="#" 
-            className="text-gray-600 hover:text-primary dark:text-gray-400 dark:hover:text-primary"
+          <div 
+            className="text-gray-600 cursor-pointer hover:text-primary dark:text-gray-400 dark:hover:text-primary"
             onClick={() => window.location.href = 'https://github.com/brayanduranvelasquez'} // Cambia 'tu_usuario' por tu nombre de usuario de GitHub
           >
             <Github className="h-5 w-5" />
-          </a>
-          <a 
-            href="#" 
-            className="text-gray-600 hover:text-primary dark:text-gray-400 dark:hover:text-primary"
+          </div>
+          <div
+            className="text-gray-600 cursor-pointer hover:text-primary dark:text-gray-400 dark:hover:text-primary"
             onClick={() => window.location.href = 'mailto:brayan13s133@gmail.com'} // Correo electrónico
           >
             <Mail className="h-5 w-5" />
-          </a>
+          </div>
         </div>
       </div>
     </footer>

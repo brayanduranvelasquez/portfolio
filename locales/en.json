@@ -2,12 +2,12 @@
   "change_language": "Change Language",
 
   "header_about": "My Current Skills",
-  "header_where_collaborated": "Where I've Collaborated",
+  "header_where_collaborated": "Projects",
   "header_my_drafts": "My Drafts",
   "header_get_in_touch": "Get In Touch",
 
   "hero_title": "Frontend Developer",
-  "hero_description": "With 3 years of experience crafting beautiful and functional web experiences. Let's build something amazing together!",
+  "hero_description": "With 2 years of experience crafting beautiful and functional web experiences. Let's build something amazing together!",
   "hero_button_text": "Get in Touch",
 
   "about_title": "My Current Skills",
@@ -37,10 +37,10 @@
   "mini_app_notes_app_description": "My first app",
   "mini_app_guess_it_description": "Mini-game",
 
-   "projects_title": "Where I have worked recently",
+   "projects_title": "Projects",
   
-   "project_goosesmurfs_description": "Take your LOL experience to the next level. Their accounts give you a head start on your ranked journey.",
-   "project_cba_conference_description": "It is a prestigious and renowned event that celebrates the exceptional quality and diversity of Canadian beer.",
-   "project_brewers_description": "The Brewers Portal is a platform for breweries to register, manage their information, and submit entries.",
-   "project_cenipa_description": "CENIPA (National Center for Fisheries and Aquaculture Research)"
+   "project_goosesmurfs_description": "Created entirely with Next.js and SASS from the ground up",
+   "project_cba_conference_description": "Contributed to the development of various small applications, enhancing functionality and user experience.",
+   "project_brewers_description": "Engineered from scratch leveraging Next.js and Tailwind CSS",
+   "project_cenipa_description": "My role involved collaborating with the team to implement features and improve the overall performance of the applications"
 }

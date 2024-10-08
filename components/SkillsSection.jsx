@@ -9,8 +9,6 @@ const skills = [
   { name: "React" },
   { name: "Next.js" },
   { name: "Tailwind CSS" },
-  { name: "Expo", },
-  { name: "Flutter" },
   { name: "Express.js" },
 ];
 
