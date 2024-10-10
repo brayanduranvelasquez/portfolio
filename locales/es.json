@@ -25,6 +25,7 @@
   "know_me_text": "Como un Desarrollador Web Frontend dedicado, me especializo en crear experiencias de usuario excepcionales a través de interfaces de usuario visualmente atractivas y funcionales. Mi experiencia radica en construir y mantener sitios web y aplicaciones web que impulsan el éxito del producto.",
   "know_me_text_last": "Si tienes un proyecto que se alinea con mi pasión por el desarrollo frontend, no dudes en ponerte en contacto.",
   "know_me_button": "Ponte en contacto",
+  "cv_button": "Descargar CV",
   "skills_title": "Habilidades",
 
   "footer_year": "2024 - Hecho con ❤️",
@@ -40,7 +41,7 @@
   "projects_title": "Proyectos",
    
   "project_goosesmurfs_description": "Creado completamente con Next.js y SASS desde cero",
-  "project_cba_conference_description": "Contribuí al desarrollo de diversas aplicaciones pequeñas, mejorando la funcionalidad y la experiencia del usuario.",
+  "project_cba_conference_description": "Contribuí al desarrollo de diversas aplicaciones pequeñas, mejorando la funcionalidad y la experiencia del usuario",
   "project_brewers_description": "Desarrollado desde cero utilizando Next.js y Tailwind CSS",
-  "project_cenipa_description": "Mi rol consistió en colaborar con el equipo para implementar características y mejorar el rendimiento general de las aplicaciones."
+  "project_cenipa_description": "Mi rol consistió en colaborar con el equipo para implementar características y mejorar el rendimiento general de las aplicaciones"
 }

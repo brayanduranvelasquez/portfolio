@@ -31,7 +31,10 @@ export default function SkillsSection() {
             <br /><br />
             <FormattedMessage id="know_me_text_last" />
 
-            <div className="pt-6"><Button onClick={handleButtonClick}><FormattedMessage id="know_me_button" /></Button></div>
+            <div className="flex flex-row gap-2 pt-6">
+              <Button onClick={handleButtonClick}><FormattedMessage id="know_me_button" /></Button>
+              <Button onClick={() => window.open('/cv-en.pdf', '_blank')}><FormattedMessage id="cv_button" /></Button>
+            </div>
           </div>
         </div>
 

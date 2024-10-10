@@ -15,6 +15,7 @@
   "know_me_text": "As a dedicated Frontend Web Developer, I specialize in crafting exceptional user experiences through visually appealing and functional front-ends. My expertise lies in building and maintaining websites and web applications that drive product success. Explore my portfolio in the Projects section to see my work in action.",
   "know_me_text_last": "I'm actively seeking opportunities to join a dynamic team where I can contribute my skills, learn from experienced professionals, and grow my career. If you have a project that aligns with my passion for frontend development, please don't hesitate to reach out.",
   "know_me_button": "Get in touch",
+  "cv_button": "Download CV",
   "skills_title": "Skills",
 
   "contact_title": "Get in Touch",
@@ -40,7 +41,7 @@
    "projects_title": "Projects",
   
    "project_goosesmurfs_description": "Created entirely with Next.js and SASS from the ground up",
-   "project_cba_conference_description": "Contributed to the development of various small applications, enhancing functionality and user experience.",
+   "project_cba_conference_description": "Contributed to the development of various small applications, enhancing functionality and user experience",
    "project_brewers_description": "Engineered from scratch leveraging Next.js and Tailwind CSS",
    "project_cenipa_description": "My role involved collaborating with the team to implement features and improve the overall performance of the applications"
 }
