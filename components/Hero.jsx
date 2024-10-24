@@ -30,7 +30,7 @@ export default function Hero() {
 
   return (
     <section 
-      className="relative py-30 lg:px-20 rounded-b-[30px] pt-10 lg:pt-6 lg:rounded-b-[60px] lg:h-[100vh] h-[500px] flex justify-center text-start items-start flex-col px-4 sm:px-6 overflow-hidden"
+      className="relative py-30 lg:px-20 rounded-b-[30px] pt-10 lg:pt-6 lg:rounded-b-[60px] lg:h-[100vh] h-[500px] flex justify-center text-center items-center flex-col px-4 sm:px-6 overflow-hidden"
       style={{ 
         backgroundImage: `url(${bgImage.src})`, 
         backgroundSize: 'cover', 
@@ -58,9 +58,11 @@ export default function Hero() {
           <FormattedMessage id="hero_description" />
         </motion.p>
 
-        <motion.div variants={itemVariants}>
-          <CustomButton href="#collaborated" title={<FormattedMessage id="hero_button_text" />} />
-        </motion.div>
+        <div className="w-full flex justify-center items-center">
+          <motion.div variants={itemVariants}>
+            <CustomButton href="#collaborated" title={<FormattedMessage id="hero_button_text" />} />
+          </motion.div>
+        </div>
       </motion.div>
     </section>
   )

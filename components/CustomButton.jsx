@@ -42,7 +42,7 @@ const Button = ({ text, href }) => {
     <motion.a
       href={href}
       ref={btnRef}
-      className="relative w-full max-w-md overflow-hidden rounded-lg bg-slate-950 px-4 py-3 text-lg font-medium text-white"
+      className="relative w-[300px] overflow-hidden rounded-lg bg-slate-950 px-4 py-3 text-lg font-medium text-white"
       whileTap={{ scale: 0.985 }}
     >
       <span className="pointer-events-none relative z-10 mix-blend-difference">
@@ -50,7 +50,7 @@ const Button = ({ text, href }) => {
       </span>
       <span
         ref={spanRef}
-        className="pointer-events-none absolute left-[50%] top-[50%] h-32 w-32 -translate-x-[50%] -translate-y-[50%] rounded-full bg-slate-100"
+        className="pointer-events-none absolute left-[50%] top-[50%] h-32 w-40 -translate-x-[50%] -translate-y-[50%] rounded-full bg-slate-100"
       />
     </motion.a>
   );
