@@ -1,5 +1,6 @@
 import { FormattedMessage } from 'react-intl';
 import { Button } from "./ui/button";
+import AnimatedSection from './AnimatedSection';
 
 const skills = [
   { name: "HTML" },
@@ -18,36 +19,38 @@ export default function SkillsSection() {
   };
 
   return (
-    <section className="pt-16 pb-6 px-8" id="about">
-      <h2 className="text-3xl font-bold mb-12 text-center">
-        <FormattedMessage id="about_title" />
-      </h2>
+    <AnimatedSection>
+      <section className="pt-16 pb-6 px-8" id="about">
+        <h2 className="text-3xl font-bold mb-12 text-center">
+          <FormattedMessage id="about_title" />
+        </h2>
 
-      <div className="grid gap-4 lg:grid-cols-2">
-        <div>
-          <div className="text-2xl pb-5 font-bold"><FormattedMessage id="know_me" /></div>
+        <div className="grid gap-4 lg:grid-cols-2">
+          <div>
+            <div className="text-2xl pb-5 font-bold"><FormattedMessage id="know_me" /></div>
 
-          <div className="leading-8"><FormattedMessage id="know_me_text" />
-            <br /><br />
-            <FormattedMessage id="know_me_text_last" />
+            <div className="leading-8"><FormattedMessage id="know_me_text" />
+              <br /><br />
+              <FormattedMessage id="know_me_text_last" />
 
-            <div className="flex flex-row gap-2 pt-6">
-              <Button onClick={handleButtonClick}><FormattedMessage id="know_me_button" /></Button>
-              <Button onClick={() => window.open('/cv-en.pdf', '_blank')}><FormattedMessage id="cv_button" /></Button>
+              <div className="flex flex-row gap-2 pt-6">
+                <Button onClick={handleButtonClick}><FormattedMessage id="know_me_button" /></Button>
+                <Button onClick={() => window.open('/cv-en.pdf', '_blank')}><FormattedMessage id="cv_button" /></Button>
+              </div>
+            </div>
+          </div>
+
+          <div className="mt-8 lg:mt-0">
+            <div className="text-2xl pb-5 font-bold"><FormattedMessage id="skills_title" /></div>
+
+            <div className="flex flex-row gap-4 flex-wrap">
+              {skills.map(item => (
+                <div className="px-4 py-3 text-sm rounded-sm text-zinc-700 bg-gray-300 font-semibold">{item.name}</div>
+              ))}
             </div>
           </div>
         </div>
-
-        <div className="mt-8 lg:mt-0">
-          <div className="text-2xl pb-5 font-bold"><FormattedMessage id="skills_title" /></div>
-
-          <div className="flex flex-row gap-4 flex-wrap">
-            {skills.map(item => (
-              <div className="px-4 py-3 text-sm rounded-sm text-zinc-700 bg-gray-300 font-semibold">{item.name}</div>
-            ))}
-          </div>
-        </div>
-      </div>
-    </section>
+      </section>
+    </AnimatedSection>
   );
 }

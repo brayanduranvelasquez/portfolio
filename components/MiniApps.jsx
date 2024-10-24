@@ -14,6 +14,7 @@ import notesApp from "@/assets/notes-app.png";
 import guessIt from "@/assets/guess-it.png";
 import { useRef } from 'react';
 import { FormattedMessage } from 'react-intl';
+import AnimatedSection from './AnimatedSection';
 
 const miniApps = [
     {
@@ -68,65 +69,67 @@ const miniApps = [
 
 export default function MiniApps() {
     const plugin = useRef(
-      Autoplay({ delay: 3000, stopOnInteraction: true })
+      Autoplay({ delay: 8000, stopOnInteraction: true })
     );
     
     return (
-      <section id="my-drafts" className="py-20 sm:px-6 lg:px-8 bg-gray-100 dark:bg-gray-800">
-          <h2 className="text-3xl font-bold text-center mb-8">
-            <FormattedMessage id="mini_apps_title" />
-          </h2>
-          
-          <Carousel
-            opts={{
-              align: "start",
-              loop: true,
-            }}
-            plugins={[plugin.current]}
-            className="w-full max-w-5xl mx-auto px-6 scale-[0.75] lg:scale-[1]"
-          >
-            <CarouselContent>
-              {miniApps.map((app) => (
-                <CarouselItem key={app.id} className="md:basis-1/2 lg:basis-1/3">
-                  <div className="p-1">
-                    <a href={app.link} target="_blank" rel="noopener noreferrer">
-                      <Card className="overflow-hidden group hover:scale-[1.02] transition-all duration-300">
-                        <div className="relative h-48 overflow-hidden">
-                          <Image
-                            src={app.image.src}
-                            alt={app.title}
-                            layout="fill"
-                            objectFit="cover"
-                            className="transition-all duration-300"
-                          />
-                        </div>
-                        <CardHeader>
-                          <CardTitle>{app.title}</CardTitle>
-                          <CardDescription>
-                            <FormattedMessage id={app.descriptionId} />
-                          </CardDescription>
-                        </CardHeader>
-                        <CardContent>
-                          <div className="flex flex-wrap gap-2">
-                            {app.technologies.map((tech) => (
-                              <Badge key={tech} variant="secondary">
-                                {tech}
-                              </Badge>
-                            ))}
+      <AnimatedSection>
+        <section id="my-drafts" className="py-20 sm:px-6 lg:px-8 bg-gray-100 dark:bg-gray-800">
+            <h2 className="text-3xl font-bold text-center mb-8">
+              <FormattedMessage id="mini_apps_title" />
+            </h2>
+            
+            <Carousel
+              opts={{
+                align: "start",
+                loop: true,
+              }}
+              plugins={[plugin.current]}
+              className="w-full max-w-5xl mx-auto px-6 scale-[0.75] lg:scale-[1]"
+            >
+              <CarouselContent>
+                {miniApps.map((app) => (
+                  <CarouselItem key={app.id} className="md:basis-1/2 lg:basis-1/3">
+                    <div className="p-1">
+                      <a href={app.link} target="_blank" rel="noopener noreferrer">
+                        <Card className="overflow-hidden group hover:scale-[1.02] transition-all duration-300">
+                          <div className="relative h-48 overflow-hidden">
+                            <Image
+                              src={app.image.src}
+                              alt={app.title}
+                              layout="fill"
+                              objectFit="cover"
+                              className="transition-all duration-300"
+                            />
                           </div>
-                        </CardContent>
-                      </Card>
-                    </a>
-                  </div>
-                </CarouselItem>
-              ))}
-            </CarouselContent>
+                          <CardHeader>
+                            <CardTitle>{app.title}</CardTitle>
+                            <CardDescription>
+                              <FormattedMessage id={app.descriptionId} />
+                            </CardDescription>
+                          </CardHeader>
+                          <CardContent>
+                            <div className="flex flex-wrap gap-2">
+                              {app.technologies.map((tech) => (
+                                <Badge key={tech} variant="secondary">
+                                  {tech}
+                                </Badge>
+                              ))}
+                            </div>
+                          </CardContent>
+                        </Card>
+                      </a>
+                    </div>
+                  </CarouselItem>
+                ))}
+              </CarouselContent>
 
-            <div >
-              <CarouselPrevious />
-              <CarouselNext />
-            </div>
-          </Carousel>
-      </section>
+              <div >
+                <CarouselPrevious />
+                <CarouselNext />
+              </div>
+            </Carousel>
+        </section>
+      </AnimatedSection>
     );
 }

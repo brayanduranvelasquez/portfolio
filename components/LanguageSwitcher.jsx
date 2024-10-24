@@ -15,7 +15,7 @@ export default function LanguageSwitcher() {
 
   const changeLanguage = (lang) => {
     const currentPath = window.location.pathname.split('/').slice(2).join('/')
-    router.push(`/${lang}/${currentPath}`)
+    window.location.href = `/${lang}/${currentPath}`
   }
 
   return (

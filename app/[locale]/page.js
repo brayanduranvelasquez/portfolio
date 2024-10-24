@@ -14,7 +14,7 @@ export default function Page() {
     <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
       <div className="min-h-screen bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 transition-colors duration-300">
         <Header />
-        <main className="pt-16">
+        <main>
           <Hero />
           <SkillsSection />
           <Projects />
