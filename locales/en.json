@@ -1,9 +1,9 @@
 {
   "change_language": "Change Language",
 
-  "header_about": "My Current Skills",
+  "header_about": "Skills",
   "header_where_collaborated": "Projects",
-  "header_my_drafts": "My Drafts",
+  "header_my_drafts": "Creations",
   "header_get_in_touch": "Get In Touch",
 
   "hero_name": "Hello, I'm Brayan!",
@@ -13,8 +13,8 @@
 
   "about_title": "My Current Skills",
   "know_me": "Know Me!",
-  "know_me_text": "As a dedicated Frontend Web Developer, I specialize in crafting exceptional user experiences through visually appealing and functional front-ends. My expertise lies in building and maintaining websites and web applications that drive product success. Explore my portfolio in the Projects section to see my work in action.",
-  "know_me_text_last": "I'm actively seeking opportunities to join a dynamic team where I can contribute my skills, learn from experienced professionals, and grow my career. If you have a project that aligns with my passion for frontend development, please don't hesitate to reach out.",
+  "know_me_text": "I am a passionate frontend developer living in Venezuela, focused on creating exceptional user experiences since I started my journey in 2022. I have worked on various applications, optimizing user interaction and improving administrative workflows using technologies like React.js, Express.js, and Tailwind CSS.",
+  "know_me_text_last": "Additionally, I have explored the backend by creating APIs with Express.js and connecting them to databases like MongoDB and Firebase. This experience has allowed me to better understand how to integrate the frontend and backend to deliver complete solutions. Lately, I have been fascinated by mobile app development with Flutter. If you have a project that aligns with my passion for frontend development, feel free to reach out.",
   "know_me_button": "Get in touch",
   "cv_button": "Download CV",
   "skills_title": "Skills",
@@ -31,7 +31,8 @@
 
   "footer_year": "2024 - Made with ❤️",
 
-  "mini_apps_title": "My Drafts",
+  "mini_apps_title": "Initial Creations",
+  "mini_apps_subtitle": "In this section, you'll find my first experiments creating interactive user interfaces",
   "mini_app_info_local_description": "Experimenting with Material UI Design",
   "mini_app_single_static_page_description": "Static web",
   "mini_app_react_app_description": "Login and signup UI",
@@ -39,7 +40,8 @@
   "mini_app_notes_app_description": "My first app",
   "mini_app_guess_it_description": "Mini-game",
 
-  "projects_title": "Projects",
+  "projects_title": "Featured Projects",
+  "projects_subtitle": "I had the pleasure of collaborating on the following projects:",
 
   "project_goosesmurfs_description": "Created entirely with Next.js and SASS from the ground up",
   "project_cba_conference_description": "Contributed to the development of various small applications, enhancing functionality and user experience",

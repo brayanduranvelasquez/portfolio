@@ -24,16 +24,32 @@ export default function Component() {
 
   const NavItems = ({ onClick }) => (
     <>
-      <a href="#about" className="hover:text-primary dark:text-white dark:hover:text-primary font-semibold transition-colors" onClick={onClick}>
+      <a
+        href="#about"
+        className="hover:text-primary dark:text-white  text-black dark:hover:text-primary font-semibold transition-colors"
+        onClick={onClick}
+      >
         <FormattedMessage id="header_about" />
       </a>
-      <a href="#collaborated" className="hover:text-primary dark:hover:text-primary dark:text-white font-semibold transition-colors" onClick={onClick}>
+      <a
+        href="#collaborated"
+        className="hover:text-primary dark:hover:text-primary text-black dark:text-white font-semibold transition-colors"
+        onClick={onClick}
+      >
         <FormattedMessage id="header_where_collaborated" />
       </a>
-      <a href="#my-drafts" className="hover:text-primary dark:hover:text-primary dark:text-white font-semibold transition-colors" onClick={onClick}>
+      <a
+        href="#my-drafts"
+        className="hover:text-primary dark:hover:text-primary text-black dark:text-white font-semibold transition-colors"
+        onClick={onClick}
+      >
         <FormattedMessage id="header_my_drafts" />
       </a>
-      <a href="#get-in-touch" className="hover:text-primary dark:hover:text-primary dark:text-white font-semibold transition-colors" onClick={onClick}>
+      <a
+        href="#get-in-touch"
+        className="hover:text-primary dark:hover:text-primary text-black dark:text-white font-semibold transition-colors"
+        onClick={onClick}
+      >
         <FormattedMessage id="header_get_in_touch" />
       </a>
     </>
@@ -45,25 +61,25 @@ export default function Component() {
 
   const headerVariants = {
     hidden: { width: 0, opacity: 0 },
-    visible: { 
-      width: '100%', 
+    visible: {
+      width: '100%',
       opacity: 1,
-      transition: { 
-        duration: 0.5, 
+      transition: {
+        duration: 0.5,
         ease: [0.25, 0.1, 0.25, 1],
         when: 'beforeChildren',
-        staggerChildren: 0.1
-      }
-    }
+        staggerChildren: 0.1,
+      },
+    },
   };
 
   const childVariants = {
     hidden: { opacity: 0, y: -20 },
-    visible: { 
-      opacity: 1, 
+    visible: {
+      opacity: 1,
       y: 0,
-      transition: { duration: 0.5, ease: 'easeOut' }
-    }
+      transition: { duration: 0.5, ease: 'easeOut' },
+    },
   };
 
   return (
@@ -94,7 +110,12 @@ export default function Component() {
 
                 <Sheet open={isOpen} onOpenChange={setIsOpen}>
                   <SheetTrigger asChild>
-                    <Button variant="ghost" size="icon" className="md:hidden text-gray-600 dark:text-gray-300" onClick={() => setIsOpen(true)}>
+                    <Button
+                      variant="ghost"
+                      size="icon"
+                      className="md:hidden text-gray-600 dark:text-gray-300"
+                      onClick={() => setIsOpen(true)}
+                    >
                       <Menu className="h-5 w-5" />
                     </Button>
                   </SheetTrigger>

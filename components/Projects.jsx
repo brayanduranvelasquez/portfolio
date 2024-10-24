@@ -73,9 +73,14 @@ export default function Projects() {
         id="collaborated"
         className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-background to-secondary/10"
       >
-        <h2 className="text-4xl font-bold mb-12 text-center">
+        <h2 className="text-4xl font-bold mb-8 text-center">
           <FormattedMessage id="projects_title" />
         </h2>
+
+        <h2 className="text-xl text-gray-600 dark:text-gray-300 text-center mb-12">
+          <FormattedMessage id="projects_subtitle" />
+        </h2>
+
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {projects.map((project, index) => (
             <Card

@@ -60,6 +60,9 @@ export default function SkillsSection() {
 
             <div className="leading-8">
               <FormattedMessage id="know_me_text" />
+              <br />
+              <br />
+              <FormattedMessage id="know_me_text_last" />
 
               <div className="flex flex-row gap-2 pt-6">
                 <Button onClick={handleButtonClick}>
