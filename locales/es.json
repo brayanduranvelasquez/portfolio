@@ -8,7 +8,7 @@
 
   "hero_name": "¡Hola, soy Brayan!",
   "hero_title": "Desarrollador Frontend",
-  "hero_description": "Con 2 años de experiencia creando experiencias web hermosas y funcionales. ¡Construyamos algo increíble juntos!",
+  "hero_description": "Con 2 años de experiencia navegando en el mundo en constante evolución del código, he perfeccionado mis habilidades en la creación de aplicaciones web cautivadoras y funcionales",
   "hero_button_text": "Explora Mi Trabajo",
 
   "contact_title": "Ponte en contacto",
@@ -40,7 +40,7 @@
   "mini_app_guess_it_description": "Mini-juego",
 
   "projects_title": "Proyectos",
-   
+
   "project_goosesmurfs_description": "Creado completamente con Next.js y SASS desde cero",
   "project_cba_conference_description": "Contribuí al desarrollo de diversas aplicaciones pequeñas, mejorando la funcionalidad y la experiencia del usuario",
   "project_brewers_description": "Desarrollado desde cero utilizando Next.js y Tailwind CSS",

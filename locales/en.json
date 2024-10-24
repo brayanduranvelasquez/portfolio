@@ -8,7 +8,7 @@
 
   "hero_name": "Hello, I'm Brayan!",
   "hero_title": "Frontend Developer",
-  "hero_description": "With 2 years of experience crafting beautiful and functional web experiences. Let's build something amazing together!",
+  "hero_description": "With 2 years of experience navigating the ever-evolving world of code, I have honed my skills in crafting captivating and functional web applications",
   "hero_button_text": "Explore My Work",
 
   "about_title": "My Current Skills",
@@ -39,10 +39,10 @@
   "mini_app_notes_app_description": "My first app",
   "mini_app_guess_it_description": "Mini-game",
 
-   "projects_title": "Projects",
-  
-   "project_goosesmurfs_description": "Created entirely with Next.js and SASS from the ground up",
-   "project_cba_conference_description": "Contributed to the development of various small applications, enhancing functionality and user experience",
-   "project_brewers_description": "Engineered from scratch leveraging Next.js and Tailwind CSS",
-   "project_cenipa_description": "My role involved collaborating with the team to implement features and improve the overall performance of the applications"
+  "projects_title": "Projects",
+
+  "project_goosesmurfs_description": "Created entirely with Next.js and SASS from the ground up",
+  "project_cba_conference_description": "Contributed to the development of various small applications, enhancing functionality and user experience",
+  "project_brewers_description": "Engineered from scratch leveraging Next.js and Tailwind CSS",
+  "project_cenipa_description": "My role involved collaborating with the team to implement features and improve the overall performance of the applications"
 }
